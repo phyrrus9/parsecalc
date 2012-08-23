@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC309DE15E5BD05005F767F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC309DD15E5BD05005F767F /* main.cpp */; };
+		4AC309F115E66EDA005F767F /* stream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC309F015E66EDA005F767F /* stream.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AC309D715E5BD05005F767F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4AC309D915E5BD05005F767F /* parsecalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = parsecalc; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC309DD15E5BD05005F767F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4AC309F015E66EDA005F767F /* stream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = stream.a; path = ../streamlib/stream.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC309D615E5BD05005F767F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC309F115E66EDA005F767F /* stream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC309CE15E5BD05005F767F = {
+			isa = PBXGroup;
+			children = (
+				4AC309F015E66EDA005F767F /* stream.a */,
+				4AC309DC15E5BD05005F767F /* parsecalc */,
+				4AC309DA15E5BD05005F767F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC309DA15E5BD05005F767F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC309D915E5BD05005F767F /* parsecalc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC309DC15E5BD05005F767F /* parsecalc */ = {
+			isa = PBXGroup;
+			children = (
+				4AC309DD15E5BD05005F767F /* main.cpp */,
+			);
+			path = parsecalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC309D815E5BD05005F767F /* parsecalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC309E315E5BD05005F767F /* Build configuration list for PBXNativeTarget "parsecalc" */;
+			buildPhases = (
+				4AC309D515E5BD05005F767F /* Sources */,
+				4AC309D615E5BD05005F767F /* Frameworks */,
+				4AC309D715E5BD05005F767F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parsecalc;
+			productName = parsecalc;
+			productReference = 4AC309D915E5BD05005F767F /* parsecalc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC309D015E5BD05005F767F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ethan Laur";
+			};
+			buildConfigurationList = 4AC309D315E5BD05005F767F /* Build configuration list for PBXProject "parsecalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AC309CE15E5BD05005F767F;
+			productRefGroup = 4AC309DA15E5BD05005F767F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC309D815E5BD05005F767F /* parsecalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC309D515E5BD05005F767F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC309DE15E5BD05005F767F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AC309E115E5BD05005F767F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4AC309E215E5BD05005F767F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4AC309E415E5BD05005F767F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../streamlib\"",
+					"\"$(SRCROOT)/parsecalc\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC309E515E5BD05005F767F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../streamlib\"",
+					"\"$(SRCROOT)/parsecalc\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC309D315E5BD05005F767F /* Build configuration list for PBXProject "parsecalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC309E115E5BD05005F767F /* Debug */,
+				4AC309E215E5BD05005F767F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC309E315E5BD05005F767F /* Build configuration list for PBXNativeTarget "parsecalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC309E415E5BD05005F767F /* Debug */,
+				4AC309E515E5BD05005F767F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC309D015E5BD05005F767F /* Project object */;
+}
