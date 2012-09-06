@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string.h>
 #include <sstream>
+#include <cstdlib>
+#include <stdio.h>
 #include "../../streamlib/streams.h" //https://github.com/phyrrus9/streamlib change the path correctly
 using namespace std;
 int opcode(char);
